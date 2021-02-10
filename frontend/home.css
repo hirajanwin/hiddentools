@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:700,600,500,400,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700,600,500,400,800,900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    margin: 0 0 50px;
+    background: #222;
+    color: #fff;
+}
+
+a {
+    text-decoration: none; 
+}
+
+
+  .right {
+    display:flex;
+    color: lightgray;
+  }
+  
+  .right div {
+    margin:0 10px;
+    padding: 5px -2px;
+    transition: 0.3s ease;
+  }
+  
+  .right div:hover{
+    color: #fff;
+    cursor: pointer;
+  }
+  
+
+h2 {
+
+    font-weight: bold;
+    font-family: "Roboto Mono",monospace;
+    margin-bottom: -15px;
+}
+
+
+#app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	width: 1020px;
+}
+
+
+.tool {
+	border-radius: 5px;
+	color: #fff;
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px;
+	width: 300px;
+	text-decoration: none;
+    transition: 0.3s ease;
+    
+}
+
+.tool:hover {
+    transform: translateY(10px);
+}
+
+.tool img {
+	border-radius: 10px;
+    max-width: 100%;
+}
+
+#logo {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+#logo:hover {
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+.floating-text {
+    padding: 10px 0;
+    border-top: 1px solid gray;
+	background-color: #222;
+	color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+	position: fixed;
+	bottom: 0;
+    left: 50%;
+    width: 100%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #77dd77;
+	text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #77dd77;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
