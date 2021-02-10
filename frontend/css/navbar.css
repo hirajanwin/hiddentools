@@ -7,6 +7,7 @@ navbar{
     align-items: center;
     flex-wrap: wrap;
   }
+  
   .logo{
     width: 150px;
     height: 40px;

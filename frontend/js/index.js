@@ -6,17 +6,23 @@ const tools = [
         img: 'https://ph-files.imgix.net/c8c0e43d-cdcc-4ef4-b9eb-d69c44c1ac1f.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
-        name: 'Instatus',
-		description: 'Quick & beautiful status pages',
-        link: 'https://instatus.com',
-        img: 'https://ph-files.imgix.net/eac49d6b-9e54-4dc9-849d-9d7447c6b798.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
-    },
+        name: 'Uizard',
+		description: 'The design tool for everyone',
+        link: 'https://uizard.io',
+        img: 'https://ph-files.imgix.net/165a2e2d-0ccf-409d-8dbe-331164be7d4b.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+	},
     {
         name: 'Fluent',
 		description: 'Learn languages by browsing the web',
         link: 'https://usefluent.co',
         img: 'https://ph-files.imgix.net/30116331-325b-438a-a0af-65b79c74ac53.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
-	},
+    },
+    {
+        name: 'Instatus',
+		description: 'Quick & beautiful status pages',
+        link: 'https://instatus.com',
+        img: 'https://ph-files.imgix.net/eac49d6b-9e54-4dc9-849d-9d7447c6b798.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+    },
     {
         name: 'ClubLink',
 		description: 'Generate a Clubhouse link that is worth sharing on social media! ✌️',
@@ -224,7 +230,7 @@ tools.forEach(tool => {
 	toolEl.classList.add('tool');
 	toolEl.href = tool.link;
     toolEl.target = '_blank';
-    toolEl.rel = 'noopener'
+    toolEl.rel = 'noopener"'
 
 	toolEl.innerHTML = `
         <img style="border: 2px solid #fff;" src="${imgURL}" alt="${title}"/>

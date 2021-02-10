@@ -11,16 +11,23 @@
           gtag('config', 'UA-176993861-1');
         </script>
 
+        <script async src="https://cdn.panelbear.com/analytics.js?site=5IFu4PjS51e"></script>
+<script>
+    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+    panelbear('config', { site: '5IFu4PjS51e' });
+</script>
+
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Hidden Tools | Explore a collection of tools for developers, designers, and makers</title>
         <link rel="icon" href="https://th.bing.com/th/id/R11b4d7421b16c418d77ee5bb122221b0?rik=9Y%2bK1J23StSxNw&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fw%2fa%2f9%2f3%2fw%2f6%2flight-green-circle-hi.png&ehk=cLHCNnE02p7Xgzk%2fzBZSe%2bkIOkLeMoquTV7sISmaMSE%3d&risl=&pid=ImgRaw">
-        <link rel="stylesheet" href="./frontend/home.css">
-        <link rel="stylesheet" href="./frontend/navbar.css">
+        <link rel="stylesheet" href="./frontend/css/home.css">
+        <link rel="stylesheet" href="./frontend/css/navbar.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
         <script defer src="https://feedback.fish/ff.js?pid=afcd6253d9d268"></script>
         <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <meta name="description" content="Generate ideas to do whenever your bored. Database contains over 100 items and counting. Get the difficulty of each item as well.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,43 +42,36 @@
   <navbar>
     <span></span>
     <ul>
+      <li><a rel="noopener" aria-label="About Link" href="/about" id="about">about</a></li>
       <li><a rel="noopener" aria-label="Suggest Link" href="mailto:imbereket@gmail.com?subject=Hidden Tools Suggestion" id="suggest">suggest</a></li>
       <li><a id="feedback" data-feedback-fish>feedback</a></li>
       
     </ul>
   </navbar>
 
-<a href="/"><img alt="Hidden Tools Logo" id="logo" src="https://i.ibb.co/5rK5SRX/hidden-tools-logo.png" style="width: 150px; margin-bottom: -50px; margin-top: 50px;"></a>
+<img onclick="confetti()" alt="Hidden Tools Logo" id="logo" src="https://i.ibb.co/5rK5SRX/hidden-tools-logo.png" style="width: 150px; margin-bottom: -50px; margin-top: 50px;">
+
 <h1 style="font-size: 28px; color: #77dd77; margin-top: 50px;">Hidden Tools </h1>
 <p style="margin-top: -18px; text-align: center; width: 80%; font-weight: 500; color: #908f9e; font-size: 20px;"><small>Explore a collection of tools for developers, designers, and makers</small></p>
 <div class="right" style="margin-bottom: 40px;">
    
   </div>
 
-<div style="text-align: center;">
-  <h2>🏆 Staff Pick</h2>
-  <p style="color: #908f9e;"><small>Tools that have been selected the best by Hidden Tools Staff</small></p>
-</div>
+
+  <h2>🏆 Tool of the Week</h2>
+  <p style="color: #908f9e; width: 80%; text-align: center;"><small>Congrats to MagicPattern, Uizard, and Fluent for tool of the week!</small></p>
+
 
 <div id="app">
 
-
-<div class="floating-text">
+<div class="footer">
 	Crafted with 💚 by <a rel="noopener" aria-label="Bereket's Twitter" href="https://twitter.com/heybereket" target="_blank"><strong>Bereket Semagn</strong></a>
 </div>
 
-<script>
-    tippy('#suggest', {
-      content: 'request more hidden tools 👀',
-      placement: 'bottom',
-    });
 
-    tippy('#feedback', {
-        content: 'drop us some feedback 🙏🏻',
-        placement: 'bottom',
-      });
-  </script>
+<script src="./frontend/js/index.js"></script>
+<script src="./frontend/js/tooltip.js"></script>
+<script src="./frontend/js/confetti.js"></script>
 
-<script src="./frontend/index.js"></script>
 </body>
 </html>

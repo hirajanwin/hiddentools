@@ -43,6 +43,7 @@ h2 {
     font-weight: bold;
     font-family: "Roboto Mono",monospace;
     margin-bottom: -15px;
+    text-align: center;
 }
 
 
@@ -82,16 +83,17 @@ h2 {
 
 #logo {
     -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
 }
 
 #logo:hover {
     -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+    transform: rotate(360deg);
+    cursor: pointer;
 }
 
 
-.floating-text {
+.footer {
     padding: 10px 0;
     border-top: 1px solid gray;
 	background-color: #222;
@@ -107,7 +109,7 @@ h2 {
 	z-index: 998;
 }
 
-.floating-text a {
+.footer a {
 	color: #77dd77;
 	text-decoration: none;
 }
