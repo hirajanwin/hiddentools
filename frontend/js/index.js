@@ -287,69 +287,8 @@ const tools = [
         link: 'https://figma.com/community/plugin/768550475442788437',
         img: 'https://figma.com/community/plugin/768550475442788437/thumbnail'
     },
-    {
-        name: 'GetWaves',
-		description: 'A free SVG wave generator',
-        link: 'https://figma.com/community/plugin/745619465174154496/Get-Waves',
-        img: 'https://figma.com/community/plugin/745619465174154496/thumbnail'
-    },
-    {
-        name: 'Better Font Picker',
-		description: 'Select fonts with a preview of it',
-        link: 'https://figma.com/community/plugin/739922281164562258/Better-Font-Picker',
-        img: 'https://figma.com/community/plugin/739922281164562258/thumbnail'
-    },
-    {
-        name: 'Blush',
-		description: 'Create and customize illustrations in your designs',
-        link: 'https://figma.com/community/plugin/838959511417581040/Blush',
-        img: 'https://figma.com/community/plugin/838959511417581040/thumbnail'
-    },
-    {
-        name: 'uiGradients',
-		description: 'Adds gradients to groups, text and frames in single click',
-        link: 'https://figma.com/community/plugin/744909029427810418/uiGradients',
-        img: 'https://figma.com/community/plugin/744909029427810418/thumbnail'
-    },
-    {
-        name: 'Image Tracer',
-		description: 'Traces black & white bitmap images, and turns them into a vector layer',
-        link: 'https://figma.com/community/plugin/735707089415755407/Image-tracer',
-        img: 'https://figma.com/community/plugin/735707089415755407/thumbnail'
-    },
-    {
-        name: 'SkewDat',
-		description: 'Live skew any shape and fine-tune with simple non-destructive controls',
-        link: 'https://figma.com/community/plugin/741472919529947576/SkewDat',
-        img: 'https://figma.com/community/plugin/741472919529947576/thumbnail'
-    },
+    
 	
 ];
 
-const app = document.getElementById('app');
 
-tools.forEach(tool => {
-    const title = `${tool.name}`;
-    const description = `${tool.description}`;
-    const imgURL = `${tool.img}`;
-    
-	
-	const toolEl = document.createElement('a');
-	toolEl.classList.add('tool');
-	toolEl.href = tool.link;
-    toolEl.target = '_blank';
-    toolEl.rel = 'noopener"'
-
-
-	toolEl.innerHTML = `
-        <img style="border: 2px solid #fff;" src="${imgURL}" alt="${title}"/>
-		<p>
-            ${title} <br>
-            <span style="color: #908f9e; font-weight: 500; font-size: 15px;">${description}</span> <br>
-            
-            
-		</p>
-    `;
-
-	app.appendChild(toolEl);
-});
