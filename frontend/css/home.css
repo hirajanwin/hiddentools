@@ -43,7 +43,7 @@ h2 {
     font-weight: bold;
     font-family: "Roboto Mono",monospace;
     margin-bottom: -15px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -79,6 +79,7 @@ h2 {
 .tool img {
 	border-radius: 10px;
     max-width: 100%;
+    height: 50%;
 }
 
 #logo {

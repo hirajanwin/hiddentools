@@ -24,22 +24,34 @@ const tools = [
         img: 'https://ph-files.imgix.net/eac49d6b-9e54-4dc9-849d-9d7447c6b798.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
+        name: 'Statuspal',
+		description: 'Beautiful hosted status pages + more',
+        link: 'https://statuspal.io',
+        img: 'https://ph-files.imgix.net/5ffe83e2-d7f2-424a-8dca-cf741e9ed3d9.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+    },
+    {
+        name: 'isBusy',
+		description: 'Free personal status page',
+        link: 'https://isbusy.app',
+        img: 'https://ph-files.imgix.net/aba270fd-f587-48ad-b5c5-cc37ba551091.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+    },
+    {
         name: 'ClubLink',
 		description: 'Generate a Clubhouse link that is worth sharing on social media! ✌️',
         link: 'https://clublink.to',
         img: 'https://clublink.to/assets/new-clublink-sharing-example.jpg'
     }, 
     {
-        name: 'Clubhouse Glow',
+        name: 'Clubhouse Avatar Maker',
 		description: 'Quickly add colorful rings to clubhouse avatar!',
         link: 'https://avatar.lvwzhen.com',
         img: 'https://ph-files.imgix.net/da6b9cad-c8c6-45e3-9914-95ef3a08461e.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=563.6734693877551&h=380&fit=max'
     }, 
     {
-        name: 'shorten.club',
-		description: 'URL shortener to voice for Clubhouse 👋',
-        link: 'https://shorten.club',
-        img: 'https://ph-files.imgix.net/004af62b-779d-4ce0-a9a1-14f741cac6d3.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+        name: '[Promoted Slot]',
+		description: 'Email me (imbereket@gmail.com), to claim this spot! :) 👋',
+        link: 'mailto:imbereket@gmail.com?subject=Sponsored Slot',
+        img: 'https://4.bp.blogspot.com/-1f1SDFIx3dY/Uh92eZAQ90I/AAAAAAAAHM4/5oiB4zC_tQ4/s1600/Photo-Background-White4.jpg'
     }, 
     {
         name: 'Vowel',
@@ -78,22 +90,22 @@ const tools = [
         img: 'https://ph-files.imgix.net/5516bf39-2f61-468a-86a9-3627d8a85a26.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=634.6555323590815&h=380&fit=max'
     },
     {
-        name: 'Raise Hand to Raise Hand',
-		description: 'Raise your hand in real life to raise your hand on Meet',
-        link: 'https://chrome.google.com/webstore/detail/rhtrh-%E2%80%93-raise-hand-to-rai/eklmnoflmkgilkjdiocjonfcpdkacplj',
-        img: 'https://ph-files.imgix.net/4b408350-217c-40c2-a83f-cb65945b8847.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+        name: 'Loom',
+		description: 'Seamless screen, mic, and camera recording for Chrome',
+        link: 'https://www.loom.com',
+        img: 'https://ph-files.imgix.net/04b528fa-3327-44c7-985e-7f4aa9ad57c9?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=608&h=380&fit=max'
     },
     {
         name: 'FreezingCam',
-		description: 'Freeze your webcam during video calls',
+		description: 'Freeze your webcam during video calls for MacOS',
         link: 'https://freezingcam.com',
         img: 'https://ph-files.imgix.net/f438c1c3-22e9-4d8c-9f03-bc6f4ca7c831.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=606.7817509247842&h=380&fit=max'
     },
     {
-        name: 'CopyAI',
-		description: 'GPT-3 powered tools to help you with your copywriting',
-        link: 'https://copy.ai',
-        img: 'https://ph-files.imgix.net/9eff3c45-014a-4e03-a923-181d667ed4d8.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=575.8500669344043&h=380&fit=max'
+        name: 'Raise Hand to Raise Hand',
+		description: 'Raise your hand in real life to raise your hand on Meet',
+        link: 'https://chrome.google.com/webstore/detail/rhtrh-%E2%80%93-raise-hand-to-rai/eklmnoflmkgilkjdiocjonfcpdkacplj',
+        img: 'https://ph-files.imgix.net/4b408350-217c-40c2-a83f-cb65945b8847.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
         name: 'Snazzy AI',
@@ -102,16 +114,22 @@ const tools = [
         img: 'https://ph-files.imgix.net/9692da56-4841-4e7d-9fe6-613e7441119c.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
-        name: 'Copysmith',
-		description: 'GPT-3 powered content marketing that feels like magic',
-        link: 'https://www.copysmith.ai',
-        img: 'https://ph-files.imgix.net/257b56a7-e464-4a8f-a8be-b9e8e484a252.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=575.321725965178&h=380.00000000000006&fit=max'
-    },
-    {
         name: 'Company in a Box',
 		description: 'Startup idea to leads in one click with GPT-3',
         link: 'https://companyinabox.ai',
         img: 'https://ph-files.imgix.net/a21a9c19-b214-40a8-ba0c-f67a530667d0.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+    },
+    {
+        name: 'CopyAI',
+		description: 'GPT-3 powered tools to help you with your copywriting',
+        link: 'https://copy.ai',
+        img: 'https://ph-files.imgix.net/9eff3c45-014a-4e03-a923-181d667ed4d8.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=575.8500669344043&h=380&fit=max'
+    },
+    {
+        name: 'copypad',
+		description: 'GPT3 generated ecommerce product descriptions',
+        link: 'https://copypad.io',
+        img: 'https://ph-files.imgix.net/0037907c-37e6-400a-8db4-2c3d472885a8.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=727.5748502994013&h=380.00000000000006&fit=max'
     },
     {
         name: 'Swifter',
@@ -132,28 +150,16 @@ const tools = [
         img: 'https://ph-files.imgix.net/72b4eaa2-88f5-4e97-8cd7-bba1b0852a3d?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=570&h=380&fit=max'
     },
     {
-        name: 'PicsArt: BG Remover',
-		description: 'Remove the background of any image 100% automatically',
-        link: 'https://picsart.com/background-remover',
-        img: 'https://cdn130.picsart.com/94210882107903817544.png?to=fixed&type=webp&r=624x-1'
+        name: 'Trace',
+		description: 'Instantly remove the background from your photos, free ✨',
+        link: 'https://www.stickermule.com',
+        img: 'https://ph-files.imgix.net/a65e593e-8978-4c7c-94e9-064353f7e11b.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=569.821930646673&h=380&fit=max'
     },
     {
-        name: 'Removal.ai',
-		description: 'API for bulk image background removal',
-        link: 'https://removal.ai',
-        img: 'https://ph-files.imgix.net/ac89a905-912d-4ad8-8bca-ab2582c22dd2.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=646.8085106382978&h=380&fit=max'
-    },
-    {
-        name: 'How Bad Is Your Spotify?',
-		description: 'A sophisticated A.I. judges your awful taste in music.',
-        link: 'https://pudding.cool/2020/12/judge-my-spotify',
-        img: 'https://ph-files.imgix.net/181540f4-0447-4f06-abbb-6307a1a0ecbb.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=723.8095238095237&h=380&fit=max'
-    },
-	{
-        name: 'Remotion',
-		description: 'Create videos programmatically in React',
-        link: 'https://remotion.dev',
-        img: 'https://ph-files.imgix.net/7c03a4aa-1550-4cda-a12c-02597eecccea.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+        name: 'Photo Creator',
+		description: 'AI-based photo creator with face swap and background removal',
+        link: 'https://icons8.com/creator',
+        img: 'https://ph-files.imgix.net/6118723a-e065-475f-b2d4-86dae5aff10b?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=605&h=380&fit=max'
     },
     {
         name: 'Super.so',
@@ -231,6 +237,7 @@ tools.forEach(tool => {
 	toolEl.href = tool.link;
     toolEl.target = '_blank';
     toolEl.rel = 'noopener"'
+
 
 	toolEl.innerHTML = `
         <img style="border: 2px solid #fff;" src="${imgURL}" alt="${title}"/>
