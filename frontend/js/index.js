@@ -108,6 +108,24 @@ const tools = [
         img: 'https://ph-files.imgix.net/4b408350-217c-40c2-a83f-cb65945b8847.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
+        name: 'toast.log',
+		description: '🤯 Get console errors right on your page',
+        link: 'https://toastlog.com',
+        img: 'https://ph-files.imgix.net/f8ecd871-c057-4801-a12b-3da556839199.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=674.5562130177515&h=380&fit=max'
+    },
+    {
+        name: 'Divjoy',
+		description: 'The React codebase & UI generator',
+        link: 'https://divjoy.com',
+        img: 'https://ph-files.imgix.net/68f982bf-2eb9-4902-a2c7-56791c821e61?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=679.1383812010444&h=380&fit=max'
+    },
+    {
+        name: 'React UI Boutique',
+		description: 'Hundreds of beautiful components',
+        link: 'https://reactui.boutique',
+        img: 'https://reactui.boutique/sharing/react-ui-boutique-1200-630.jpg'
+    },
+    {
         name: 'Snazzy AI',
 		description: 'AI-powered content creation. Free for everyone',
         link: 'https://snazzy.ai',
@@ -144,6 +162,42 @@ const tools = [
         img: 'https://ph-files.imgix.net/42fa86d1-9e14-46f2-8514-eada9cc65552.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=675.5555555555555&h=380&fit=max'
     },
     {
+        name: 'Booste',
+		description: 'Run machine learning from one line of code',
+        link: 'https://booste.io',
+        img: 'https://images-ext-1.discordapp.net/external/DV76wcCTNsIQ9JbazbejM56-evxgk1lNIRUojHlVBrg/%3Fauto%3Dformat%26auto%3Dcompress%26codec%3Dmozjpeg%26cs%3Dstrip%26w%3D675.5555555555555%26h%3D380%26fit%3Dmax/https/ph-files.imgix.net/2d63fb31-efe1-451b-a9ee-b7f00446b9f7.png'
+    },
+    {
+        name: 'Tensorflow',
+		description: 'Open-source machine learning library by Google',
+        link: 'https://tensorflow.org',
+        img: 'https://ph-files.imgix.net/ee2e992a-3629-4b8c-a287-959480840a59?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=672.3076923076923&h=379.99999999999994&fit=max'
+    },
+    {
+        name: 'Intersect Labs',
+		description: 'Visually build internal data apps - Machine Learning in 3 clicks',
+        link: 'https://intersectlabs.io',
+        img: 'https://ph-files.imgix.net/6351acb4-19c1-4fcc-9ba6-bce62f535e8c?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+    },
+    {
+        name: 'ML Kit',
+		description: 'Machine learning for mobile developers by Google',
+        link: 'https://developers.google.com/ml-kit',
+        img: 'https://ph-files.imgix.net/b7566da9-b1ac-4f44-b0a1-0cb8da7f938c?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=675.5555555555555&h=380&fit=max'
+    },
+    {
+        name: 'Lobe',
+		description: 'Train machine learning models with a free, easy to use tool',
+        link: 'https://lobe.ai',
+        img: 'https://ph-files.imgix.net/a1a45c38-52f4-4250-af04-00f2c2214c08.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+    },
+    {
+        name: 'Melody ML',
+		description: 'Separate music tracks using machine learning, for free',
+        link: 'https://melody.ml',
+        img: 'https://ph-files.imgix.net/4fbcfba1-ed32-49e0-98c7-27fa47ef76a9?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+    },
+    {
         name: 'remove.bg',
 		description: 'Remove the background of any image 100% automatically',
         link: 'https://remove.bg',
@@ -160,42 +214,6 @@ const tools = [
 		description: 'AI-based photo creator with face swap and background removal',
         link: 'https://icons8.com/creator',
         img: 'https://ph-files.imgix.net/6118723a-e065-475f-b2d4-86dae5aff10b?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=605&h=380&fit=max'
-    },
-    {
-        name: 'toast.log',
-		description: '🤯 Get console errors right on your page',
-        link: 'https://toastlog.com',
-        img: 'https://ph-files.imgix.net/f8ecd871-c057-4801-a12b-3da556839199.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=674.5562130177515&h=380&fit=max'
-    },
-    {
-        name: 'Divjoy',
-		description: 'The React codebase & UI generator',
-        link: 'https://divjoy.com',
-        img: 'https://ph-files.imgix.net/68f982bf-2eb9-4902-a2c7-56791c821e61?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=679.1383812010444&h=380&fit=max'
-    },
-    {
-        name: 'React UI Boutique',
-		description: 'Hundreds of beautiful components',
-        link: 'https://reactui.boutique',
-        img: 'https://reactui.boutique/sharing/react-ui-boutique-1200-630.jpg'
-    },
-    {
-        name: 'Booste',
-		description: 'Run performance desktop apps from any device',
-        link: 'https://booste.io',
-        img: 'https://ph-files.imgix.net/4e0da86d-c00c-4c8d-aec9-13d4344b3cbe?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=675.5555555555555&h=380&fit=max'
-    },
-    {
-        name: 'Emojicom',
-		description: 'Collect feedback for your site with emojis and capture your visitors emotions',
-        link: 'https://emojicom.io',
-        img: 'https://emojicom.io/assets/images/social-preview.png'
-    },
-    {
-        name: 'Contact Forms for Static Websites',
-		description: 'Contact Forms for Static Websites',
-        link: 'https://web3forms.com',
-        img: 'https://web3forms.com/img/card.jpg'
     },
     {
         name: 'Super.so',
