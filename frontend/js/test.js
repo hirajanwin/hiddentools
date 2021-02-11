@@ -20,7 +20,8 @@ tools.forEach(tool => {
             <span style="color: #908f9e; font-weight: 500; font-size: 15px;">${description}</span> <br>
             
             
-		</p>
+        </p>
+        
     `;
 
 	app.appendChild(toolEl);
