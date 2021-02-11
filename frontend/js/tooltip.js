@@ -8,8 +8,8 @@ tippy('#feedback', {
       placement: 'bottom',
     });
 
-tippy('#about', {
-        content: 'know more about hidden tools 🚀',
+tippy('#twitter', {
+        content: 'visit our official twitter page 🚀',
         placement: 'bottom',
       });
 
