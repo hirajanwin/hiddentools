@@ -180,6 +180,24 @@ const tools = [
         img: 'https://reactui.boutique/sharing/react-ui-boutique-1200-630.jpg'
     },
     {
+        name: 'Booste',
+		description: 'Run performance desktop apps from any device',
+        link: 'https://booste.io',
+        img: 'https://ph-files.imgix.net/4e0da86d-c00c-4c8d-aec9-13d4344b3cbe?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=675.5555555555555&h=380&fit=max'
+    },
+    {
+        name: 'Emojicom',
+		description: 'Collect feedback for your site with emojis and capture your visitors emotions',
+        link: 'https://emojicom.io',
+        img: 'https://emojicom.io/assets/images/social-preview.png'
+    },
+    {
+        name: 'Contact Forms for Static Websites',
+		description: 'Contact Forms for Static Websites',
+        link: 'https://web3forms.com',
+        img: 'https://web3forms.com/img/card.jpg'
+    },
+    {
         name: 'Super.so',
 		description: 'From Notion to Website in minutes',
         link: 'https://super.so',
