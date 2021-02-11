@@ -12,3 +12,8 @@ tippy('#about', {
         content: 'know more about hidden tools 🚀',
         placement: 'bottom',
       });
+
+      tippy('#logo', {
+        content: 'hi! click on me for a little surprise! 🎉',
+        placement: 'bottom',
+      });

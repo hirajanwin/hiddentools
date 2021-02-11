@@ -162,6 +162,24 @@ const tools = [
         img: 'https://ph-files.imgix.net/6118723a-e065-475f-b2d4-86dae5aff10b?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=605&h=380&fit=max'
     },
     {
+        name: 'toast.log',
+		description: '🤯 Get console errors right on your page',
+        link: 'https://toastlog.com',
+        img: 'https://ph-files.imgix.net/f8ecd871-c057-4801-a12b-3da556839199.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=674.5562130177515&h=380&fit=max'
+    },
+    {
+        name: 'Divjoy',
+		description: 'The React codebase & UI generator',
+        link: 'https://divjoy.com',
+        img: 'https://ph-files.imgix.net/68f982bf-2eb9-4902-a2c7-56791c821e61?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=679.1383812010444&h=380&fit=max'
+    },
+    {
+        name: 'React UI Boutique',
+		description: 'Hundreds of beautiful components',
+        link: 'https://reactui.boutique',
+        img: 'https://reactui.boutique/sharing/react-ui-boutique-1200-630.jpg'
+    },
+    {
         name: 'Super.so',
 		description: 'From Notion to Website in minutes',
         link: 'https://super.so',
@@ -216,10 +234,22 @@ const tools = [
         img: 'https://ph-files.imgix.net/384abd6e-7b9e-45c1-9f17-cde573e97841.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=701.5384615384615&h=380&fit=max'
     },
     {
-        name: 'Jitter',
-		description: 'A simple animation tool on the web',
-        link: 'https://jitter.video',
-        img: 'https://ph-files.imgix.net/ada1abd2-bf5e-4ab6-839a-44118e38fafd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
+        name: 'Squircle',
+		description: 'Create and edit shapes',
+        link: 'https://www.figma.com/community/plugin/930173909910797614',
+        img: 'https://www.figma.com/community/plugin/930173909910797614/thumbnail'
+    },
+    {
+        name: 'Isometric',
+		description: 'Create isometric layers automatically',
+        link: 'https://www.figma.com/community/plugin/741184519069077841',
+        img: 'https://www.figma.com/community/plugin/741184519069077841/thumbnail'
+    },
+    {
+        name: 'Color Search',
+		description: 'Search for anything, find a color',
+        link: 'https://www.figma.com/community/plugin/768550475442788437',
+        img: 'https://www.figma.com/community/plugin/768550475442788437/thumbnail'
     },
 	
 ];
