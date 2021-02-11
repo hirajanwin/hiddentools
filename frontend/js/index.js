@@ -56,19 +56,19 @@ const tools = [
     {
         name: 'Vowel',
 		description: 'A video conferencing tool that makes meetings better',
-        link: 'https://www.vowel.com',
+        link: 'https://vowel.com',
         img: 'https://ph-files.imgix.net/8ec9eed3-985a-487c-840f-0121a5ab2a32.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
         name: 'Virtual Venue by Mixily',
 		description: 'Host custom video gatherings right in your website',
-        link: 'https://www.mixily.com/features/virtualvenue',
+        link: 'https://mixily.com/features/virtualvenue',
         img: 'https://ph-files.imgix.net/eb7f2493-9018-4858-be6c-cedb64a07a67.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
         name: 'Teamflow',
 		description: 'Feel like a team again with your own virtual office',
-        link: 'https://www.teamflowhq.com',
+        link: 'https://teamflowhq.com',
         img: 'https://ph-files.imgix.net/fef7dc97-2659-4321-afdb-903c5da8cd9c.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=635&h=380&fit=max'
     },
     {
@@ -80,7 +80,7 @@ const tools = [
     {
         name: 'Comeet',
 		description: 'Video-first async meetings inside your calendar',
-        link: 'https://www.comeet.me',
+        link: 'https://comeet.me',
         img: 'https://ph-files.imgix.net/0e70966b-e529-4ad0-a9cf-18cea000e643.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=634&h=380&fit=max'
     },
     {
@@ -92,7 +92,7 @@ const tools = [
     {
         name: 'Loom',
 		description: 'Seamless screen, mic, and camera recording for Chrome',
-        link: 'https://www.loom.com',
+        link: 'https://loom.com',
         img: 'https://ph-files.imgix.net/04b528fa-3327-44c7-985e-7f4aa9ad57c9?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=608&h=380&fit=max'
     },
     {
@@ -152,7 +152,7 @@ const tools = [
     {
         name: 'Swifter',
 		description: 'Email subject line generator for B2B & B2C, built with GPT-3',
-        link: 'https://www.swifterhq.com',
+        link: 'https://swifterhq.com',
         img: 'https://ph-files.imgix.net/85ba3b29-ae47-4303-82e3-e0a14d36204c.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=675.5555555555555&h=380&fit=max'
     },
     {
@@ -206,7 +206,7 @@ const tools = [
     {
         name: 'Trace',
 		description: 'Instantly remove the background from your photos, free ✨',
-        link: 'https://www.stickermule.com',
+        link: 'https://stickermule.com',
         img: 'https://ph-files.imgix.net/a65e593e-8978-4c7c-94e9-064353f7e11b.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=569.821930646673&h=380&fit=max'
     },
     {
@@ -225,7 +225,7 @@ const tools = [
         name: 'Potion Pages',
 		description: 'The website builder for Notion',
         link: 'https://potion.page',
-        img: 'https://www.potion.page/editor-styles-demo.63c8d6a.gif'
+        img: 'https://potion.page/editor-styles-demo.63c8d6a.gif'
     },
     {
         name: 'Sotion.so',
@@ -254,7 +254,7 @@ const tools = [
     {
         name: 'Descript',
 		description: 'Full featured video editor & screen recorder w/transcription',
-        link: 'https://www.descript.com',
+        link: 'https://descript.com',
         img: 'https://ph-files.imgix.net/4856cef1-cdbd-4b74-9f7e-90f7d8d551b8.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=675.5555555555555&h=380&fit=max'
     },
     {
@@ -272,20 +272,56 @@ const tools = [
     {
         name: 'Squircle',
 		description: 'Create and edit shapes',
-        link: 'https://www.figma.com/community/plugin/930173909910797614',
-        img: 'https://www.figma.com/community/plugin/930173909910797614/thumbnail'
+        link: 'https://figma.com/community/plugin/930173909910797614',
+        img: 'https://figma.com/community/plugin/930173909910797614/thumbnail'
     },
     {
         name: 'Isometric',
 		description: 'Create isometric layers automatically',
-        link: 'https://www.figma.com/community/plugin/741184519069077841',
-        img: 'https://www.figma.com/community/plugin/741184519069077841/thumbnail'
+        link: 'https://figma.com/community/plugin/741184519069077841',
+        img: 'https://figma.com/community/plugin/741184519069077841/thumbnail'
     },
     {
         name: 'Color Search',
 		description: 'Search for anything, find a color',
-        link: 'https://www.figma.com/community/plugin/768550475442788437',
-        img: 'https://www.figma.com/community/plugin/768550475442788437/thumbnail'
+        link: 'https://figma.com/community/plugin/768550475442788437',
+        img: 'https://figma.com/community/plugin/768550475442788437/thumbnail'
+    },
+    {
+        name: 'GetWaves',
+		description: 'A free SVG wave generator',
+        link: 'https://figma.com/community/plugin/745619465174154496/Get-Waves',
+        img: 'https://figma.com/community/plugin/745619465174154496/thumbnail'
+    },
+    {
+        name: 'Better Font Picker',
+		description: 'Select fonts with a preview of it',
+        link: 'https://figma.com/community/plugin/739922281164562258/Better-Font-Picker',
+        img: 'https://figma.com/community/plugin/739922281164562258/thumbnail'
+    },
+    {
+        name: 'Blush',
+		description: 'Create and customize illustrations in your designs',
+        link: 'https://figma.com/community/plugin/838959511417581040/Blush',
+        img: 'https://figma.com/community/plugin/838959511417581040/thumbnail'
+    },
+    {
+        name: 'uiGradients',
+		description: 'Adds gradients to groups, text and frames in single click',
+        link: 'https://figma.com/community/plugin/744909029427810418/uiGradients',
+        img: 'https://figma.com/community/plugin/744909029427810418/thumbnail'
+    },
+    {
+        name: 'Image Tracer',
+		description: 'Traces black & white bitmap images, and turns them into a vector layer',
+        link: 'https://figma.com/community/plugin/735707089415755407/Image-tracer',
+        img: 'https://figma.com/community/plugin/735707089415755407/thumbnail'
+    },
+    {
+        name: 'SkewDat',
+		description: 'Live skew any shape and fine-tune with simple non-destructive controls',
+        link: 'https://figma.com/community/plugin/741472919529947576/SkewDat',
+        img: 'https://figma.com/community/plugin/741472919529947576/thumbnail'
     },
 	
 ];
